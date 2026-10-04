@@ -51,7 +51,7 @@ export const ReservationModal: React.FC<ReservationModalProps> = ({
             </div>
             <div>
               <h2 id="reservation-modal-title" className="font-serif text-lg font-bold">
-                Reserve Your Stay at Bikini Valley
+                Reserve Your Stay at Oceana Haven
               </h2>
               <p className="text-xs text-stone-300">
                 {RESORT_INFO.location} · Sample Educational Inquiry

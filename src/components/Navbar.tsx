@@ -47,7 +47,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-6">
             <span className="text-stone-400">
-              Samara, Aringay, La Union, Philippines
+              Corong-Corong, El Nido, Palawan, Philippines
             </span>
             <span className="text-stone-600">·</span>
             <a
@@ -86,7 +86,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           <button
             onClick={() => handleLinkClick('home')}
             className="text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 rounded-lg"
-            aria-label="Bikini Valley Resort Home"
+            aria-label="Oceana Haven Home"
           >
             <ResortLogo size="md" />
           </button>

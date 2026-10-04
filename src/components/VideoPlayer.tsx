@@ -20,7 +20,7 @@ export const VideoPlayer: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const [videoSrc, setVideoSrc] = useState<string | null>(null);
-  const [userFileName, setUserFileName] = useState<string | null>('Bikini Valley Resort Tour (Kling AI)');
+  const [userFileName, setUserFileName] = useState<string | null>('Oceana Haven Tour');
   const [activeSceneIndex, setActiveSceneIndex] = useState(0);
   const [playbackMode, setPlaybackMode] = useState<'video' | 'scenes'>('video');
   const [currentTime, setCurrentTime] = useState(0);
@@ -104,14 +104,14 @@ export const VideoPlayer: React.FC = () => {
           <div>
             <div className="flex items-center gap-2">
               <h3 className="font-serif text-base sm:text-lg font-bold text-white">
-                Bikini Valley Resort Promotional Tour
+                Oceana Haven Promotional Tour
               </h3>
               <span className="hidden sm:inline-block px-2 py-0.5 rounded text-[10px] font-semibold bg-teal-900 text-teal-200 border border-teal-700">
                 Official Video
               </span>
             </div>
             <p className="text-xs text-stone-400">
-              Samara, Aringay, La Union · Coastal Tour & Atmosphere
+              Corong-Corong, El Nido, Palawan · Coastal Tour & Atmosphere
             </p>
           </div>
         </div>
@@ -215,7 +215,7 @@ export const VideoPlayer: React.FC = () => {
                   Play Resort Walkthrough
                 </h4>
                 <p className="text-xs text-teal-200 mt-1">
-                  Bikini Valley Resort · Samara, Aringay, La Union
+                  Oceana Haven · Corong-Corong, El Nido, Palawan
                 </p>
                 {userFileName && (
                   <span className="mt-2 text-[11px] text-stone-400 bg-stone-900/80 px-2.5 py-0.5 rounded-full border border-stone-700">
@@ -368,11 +368,11 @@ export const VideoPlayer: React.FC = () => {
           <div className="flex items-center gap-2">
             <CheckCircle className="w-3.5 h-3.5 text-teal-500 shrink-0" />
             <span>
-              Configured with Bikini Valley Resort tour showcasing the entrance sign, pool oasis, Samara beach walk, welcome drinks, and sunset.
+              Configured with Oceana Haven tour showcasing the entrance sign, pool oasis, Corong-Corong beach walk, welcome drinks, and sunset.
             </span>
           </div>
           <span className="text-stone-400 shrink-0">
-            Location: Samara, Aringay, La Union
+            Location: Corong-Corong, El Nido, Palawan
           </span>
         </div>
       </div>

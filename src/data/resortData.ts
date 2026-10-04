@@ -17,18 +17,18 @@ import entranceSignImg from '../assets/images/resort_entrance_sign_1790868462493
 import welcomeDrinksImg from '../assets/images/resort_welcome_drinks_1790868527598.jpg';
 
 export const RESORT_INFO = {
-  name: 'Bikini Valley Resort',
+  name: 'Oceana Haven',
   slogan: 'Relax. Explore. Experience.',
-  location: 'Samara, Aringay, La Union, Philippines',
-  fullAddress: 'Samara Beachfront Road, Aringay, La Union 2503, Philippines',
+  location: 'Corong-Corong, El Nido, Palawan, Philippines',
+  fullAddress: 'Corong-Corong Beachfront Road, El Nido, Palawan 5313, Philippines',
   contactNumber: '09539661524',
   telLink: 'tel:09539661524',
-  email: 'bikinivalley175@gmail.com',
-  mailtoLink: 'mailto:bikinivalley175@gmail.com',
+  email: 'oceanahaven38@gmail.com',
+  mailtoLink: 'mailto:oceanahaven38@gmail.com',
   facebookUrl: 'https://www.facebook.com/profile.php?id=61594790529009',
   instagramUrl: 'https://www.instagram.com/bikinivalley?stkn=MTZ1aXhwMG43bWgxZw==',
-  googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=Samara,+Aringay,+La+Union,+Philippines',
-  googleMapsEmbedUrl: 'https://maps.google.com/maps?q=Samara,+Aringay,+La+Union,+Philippines&t=&z=14&ie=UTF8&iwloc=&output=embed',
+  googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=Corong-Corong,+El+Nido,+Palawan,+Philippines',
+  googleMapsEmbedUrl: 'https://maps.google.com/maps?q=Corong-Corong,+El+Nido,+Palawan,+Philippines&t=&z=14&ie=UTF8&iwloc=&output=embed',
   businessHours: {
     general: 'Open 24 hours daily',
     frontDesk: '24 hours',
@@ -61,7 +61,7 @@ export const RESORT_VIDEO_SCENES = [
   {
     timestamp: '00:00',
     title: 'Resort Entrance & Grand Welcome',
-    description: 'Rustic carved wooden entrance sign framed by coconut palms and white sands of Samara.',
+    description: 'Rustic carved wooden entrance sign framed by coconut palms and white sands of Corong-Corong, El Nido.',
     image: entranceSignImg,
     tag: 'Entrance',
   },
@@ -74,8 +74,8 @@ export const RESORT_VIDEO_SCENES = [
   },
   {
     timestamp: '00:02',
-    title: 'Samara Beachfront Stroll',
-    description: 'Gentle turquoise tides and powdery shorelines along the quiet coast of Aringay.',
+    title: 'Corong-Corong Beachfront Stroll',
+    description: 'Gentle turquoise tides and powdery shorelines overlooking iconic Bacuit Bay limestone karsts.',
     image: beachCabanaImg,
     tag: 'Beach Walk',
   },
@@ -89,7 +89,7 @@ export const RESORT_VIDEO_SCENES = [
   {
     timestamp: '00:04',
     title: 'Golden Sunset over Beachfront Villas',
-    description: 'Breathtaking twilight sky as the sun dips into the West Philippine Sea.',
+    description: 'Breathtaking twilight sky as the sun dips into the serene waters of Bacuit Bay in El Nido.',
     image: sunsetLaUnionImg,
     tag: 'Sunset',
   },
@@ -108,7 +108,7 @@ export const ROOMS_DATA: Room[] = [
     shortDescription:
       'A cozy, comfortable sanctuary designed for solo travelers or couples seeking a relaxing tropical beach getaway.',
     fullDescription:
-      'The Standard Room at Bikini Valley Resort offers a restful haven after a day of beachside leisure in Aringay. Furnished with clean coastal aesthetics, high-speed Wi-Fi, air conditioning, and fresh linens, it combines affordability with quality hospitality.',
+      'The Standard Room at Oceana Haven offers a restful haven after a day of island-hopping and beachside leisure in El Nido. Furnished with clean coastal aesthetics, high-speed Wi-Fi, air conditioning, and fresh linens, it combines affordability with quality hospitality.',
     amenities: [
       'Air conditioning',
       'Private bathroom with hot/cold shower',
@@ -131,9 +131,9 @@ export const ROOMS_DATA: Room[] = [
     view: 'Private Balcony with Coastal View',
     popular: true,
     shortDescription:
-      'An upgraded tropical retreat featuring a private balcony to take in the soothing coastal breeze of La Union.',
+      'An upgraded tropical retreat featuring a private balcony to take in the soothing coastal breeze of El Nido.',
     fullDescription:
-      'Wake up to the sound of gentle waves and palm trees rustling outside. The Deluxe Room features an expansive private balcony, plush king-size bedding, smart television entertainment, mini-fridge, and woven artisanal furniture reflecting local craftsmanship.',
+      'Wake up to the sound of gentle waves and palm trees rustling outside. The Deluxe Room features an expansive private balcony overlooking Corong-Corong Bay, plush king-size bedding, smart television entertainment, mini-fridge, and woven artisanal furniture reflecting local craftsmanship.',
     amenities: [
       'Air conditioning',
       'Private bathroom with rainfall shower',
@@ -156,9 +156,9 @@ export const ROOMS_DATA: Room[] = [
     roomSize: '48 sq.m',
     view: 'Garden & Pool View',
     shortDescription:
-      'A generous, sunlit family suite crafted for memorable vacations, group outings, and barkada getaways in Samara.',
+      'A generous, sunlit family suite crafted for memorable vacations, group outings, and barkada getaways in Palawan.',
     fullDescription:
-      'Designed with spacious living areas and flexible bedding arrangements, our Family Room ensures every family member stays comfortable. Enjoy ample floor area, a seating lounge, dual air-conditioning units, and easy access to both the swimming pool and beach trail.',
+      'Designed with spacious living areas and flexible bedding arrangements, our Family Room ensures every family member stays comfortable. Enjoy ample floor area, a seating lounge, dual air-conditioning units, and easy access to both the swimming pool and Corong-Corong beach trail.',
     amenities: [
       'Dual air conditioning units',
       'Spacious private bathroom with double vanity',
@@ -180,7 +180,7 @@ export const FACILITIES_DATA: Facility[] = [
     image: poolImg,
     caption: 'Crystal-clear oasis pool surrounded by swaying palms and sun loungers.',
     shortDescription:
-      'Our refreshing freshwater swimming pool is the centerpiece of relaxation at Bikini Valley Resort.',
+      'Our refreshing freshwater swimming pool is the centerpiece of relaxation at Oceana Haven.',
     fullDescription:
       'Designed with both a 4-foot swimming section and a shallow kiddie wading ledge, our pool offers safe recreation for the whole family. Relax on comfortable wooden sun loungers under white parasols while sipping freshly made tropical coolers.',
     hours: '6:00 AM – 10:00 PM Daily',
@@ -192,11 +192,11 @@ export const FACILITIES_DATA: Facility[] = [
     image: diningPatioImg,
     caption: 'Open-air coastal dining offering authentic Filipino dishes and fresh seafood.',
     shortDescription:
-      'Savor authentic Ilokano specialties, fresh catch from local coastal fishermen, and refreshing fruit shakes.',
+      'Savor fresh Palawan seafood caught by local coastal fishermen, classic Filipino dishes, and refreshing fruit shakes.',
     fullDescription:
-      'Our open-air restaurant celebrates coastal La Union hospitality. Enjoy fresh Pinakbet, crispy Bagnet, Sinigang na Isda, grilled squid, and chilled mango shakes while ocean breezes drift across your table.',
+      'Our open-air restaurant celebrates coastal Palawan hospitality. Enjoy fresh grilled fish, squid, crispy pork belly, tropical fruit salads, and chilled mango shakes while Bacuit Bay ocean breezes drift across your table.',
     hours: '7:00 AM – 9:30 PM Daily (Breakfast, Lunch, Dinner)',
-    features: ['Authentic Filipino & Ilokano menu', 'Fresh seafood specials', 'Fresh tropical fruit shakes & bar', 'Al fresco beachfront seating'],
+    features: ['Authentic Filipino & Palawan seafood menu', 'Catch-of-the-day grilled specials', 'Fresh tropical fruit shakes & bar', 'Al fresco beachfront seating'],
   },
   {
     id: 'garden',
@@ -214,13 +214,13 @@ export const FACILITIES_DATA: Facility[] = [
     id: 'beach-area',
     title: 'Beach Area',
     image: beachCabanaImg,
-    caption: 'Direct steps to the tranquil Samara coastline with private beach cabanas.',
+    caption: 'Direct steps to the tranquil Corong-Corong coastline with private beach cabanas.',
     shortDescription:
-      'Unwind on the pristine shores of Aringay with front-row seats to spectacular sunset skies.',
+      'Unwind on the shores of Corong-Corong Beach in El Nido with front-row seats to world-famous sunsets.',
     fullDescription:
-      'Unlike overcrowded tourist beaches, the Samara beachfront in Aringay retains its peaceful, authentic coastal charm. Guests enjoy private cabanas, beach loungers, evening bonfires upon request, and calm tides ideal for wading.',
-    hours: 'Open 24 Hours (Lifeguard on duty 8:00 AM – 6:00 PM)',
-    features: ['Direct beach access', 'Shaded bamboo cabanas', 'Sunset viewing platforms', 'Beach volleyball area'],
+      'Famed for its panoramic sunset views over Bacuit Bay, Corong-Corong Beach offers a relaxed, authentic coastal escape. Guests enjoy private cabanas, beach loungers, evening cocktails, and calm tides ideal for wading and paddleboarding.',
+    hours: 'Open 24 Hours (Staff assistance 8:00 AM – 8:00 PM)',
+    features: ['Direct beach access', 'Shaded bamboo cabanas', 'Sunset viewing platforms', 'Paddleboard & beach recreation area'],
   },
   {
     id: 'parking-area',
@@ -228,9 +228,9 @@ export const FACILITIES_DATA: Facility[] = [
     image: parkingAreaImg,
     caption: 'Complimentary, secure, and gated on-site guest parking facility.',
     shortDescription:
-      'Convenient parking space for private vehicles, family vans, and motorcycles with 24/7 security.',
+      'Convenient parking space for private vehicles, island vans, and motorbikes with 24/7 security.',
     fullDescription:
-      'Travel with peace of mind. Bikini Valley Resort provides generous, paved on-premise parking spaces protected by gated entry, night lighting, and continuous staff monitoring.',
+      'Travel with peace of mind. Oceana Haven provides generous, paved on-premise parking spaces protected by gated entry, night lighting, and continuous staff monitoring.',
     hours: 'Open 24 Hours for Checked-in Guests',
     features: ['Complimentary for all guests', 'Fits cars, SUVs, and vans', 'Well-lit with security post', 'Direct luggage drop-off zone'],
   },
@@ -254,7 +254,7 @@ export const FACILITIES_DATA: Facility[] = [
     shortDescription:
       'A versatile event space accommodating up to 120 guests with audiovisual support and catering packages.',
     fullDescription:
-      'Whether hosting a milestone family birthday, alumni reunion, school seminar, or beachside wedding reception, our Function Hall offers flexible configurations, stage lighting, sound system, and tailored catering.',
+      'Whether hosting a milestone family birthday, alumni reunion, school seminar, or beachside wedding reception in El Nido, our Function Hall offers flexible configurations, stage lighting, sound system, and tailored catering.',
     hours: 'Available by reservation (8:00 AM – 11:00 PM)',
     features: ['Capacity up to 120 guests', 'Full PA sound system & projector', 'Custom banquet dining setup', 'Air-conditioned or open-breeze modes'],
   },
@@ -263,11 +263,11 @@ export const FACILITIES_DATA: Facility[] = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 'g-hero',
-    title: 'Bikini Valley Coastline',
+    title: 'Oceana Haven Coastline',
     category: 'beach-pool',
     categoryLabel: 'Beach & Pool',
     image: heroTropical,
-    caption: 'Golden afternoon view of the beachfront sanctuary at Bikini Valley Resort in Samara, Aringay.',
+    caption: 'Golden afternoon view of the beachfront sanctuary at Oceana Haven in Corong-Corong, El Nido, Palawan.',
     location: 'Beachfront Shoreline',
   },
   {
@@ -285,8 +285,8 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'beach-pool',
     categoryLabel: 'Beach & Pool',
     image: beachCabanaImg,
-    caption: 'Tranquil open-air bamboo cabana with sheer curtains overlooking the tranquil waves.',
-    location: 'Samara Beachfront',
+    caption: 'Tranquil open-air bamboo cabana with sheer curtains overlooking the tranquil waves of Corong-Corong Bay.',
+    location: 'Corong-Corong Beachfront',
   },
   {
     id: 'g-deluxe',
@@ -335,12 +335,12 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g-sunset',
-    title: 'La Union Golden Sunset',
+    title: 'El Nido Golden Sunset',
     category: 'moments',
     categoryLabel: 'Moments & Sunset',
     image: sunsetLaUnionImg,
-    caption: 'Spectacular sunset over the Lingayen Gulf / West Philippine Sea coast from our beach.',
-    location: 'Samara Coastline',
+    caption: 'Spectacular sunset over Bacuit Bay and Corong-Corong from our beachfront loungers.',
+    location: 'Corong-Corong Coastline',
   },
   {
     id: 'g-recreation',
@@ -375,7 +375,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'beach-pool',
     categoryLabel: 'Beach & Pool',
     image: entranceSignImg,
-    caption: 'Carved wooden entrance sign welcoming guests to Bikini Valley Resort in Samara, Aringay.',
+    caption: 'Carved wooden entrance sign welcoming guests to Oceana Haven in Corong-Corong, El Nido.',
     location: 'Main Beachfront Entrance',
   },
   {
@@ -393,11 +393,11 @@ export const WHY_CHOOSE_US = [
   {
     title: 'Unspoiled Beachfront Serenity',
     description:
-      'Escape the noisy crowds. Samara Beach in Aringay offers genuine coastal tranquility with peaceful tides and pristine golden sunsets.',
+      'Escape the noisy crowds. Corong-Corong Beach in El Nido offers genuine coastal tranquility with peaceful tides and pristine golden sunsets over Bacuit Bay.',
     highlight: 'Peaceful Coastal Haven',
   },
   {
-    title: 'Warm Ilokano Hospitality',
+    title: 'Warm Palawan Hospitality',
     description:
       'Experience the heartfelt care of our local staff, dedicated to making your stay as relaxing and welcoming as home.',
     highlight: 'Attentive 24/7 Care',
@@ -419,7 +419,7 @@ export const WHY_CHOOSE_US = [
 export const PHOTO_CREDITS = [
   {
     role: 'Visual Assets & Concept',
-    detail: 'Generated high-fidelity architectural renders & AI visual assets tailored for Bikini Valley Resort simulation.',
+    detail: 'Generated high-fidelity architectural renders & AI visual assets tailored for Oceana Haven simulation.',
   },
   {
     role: 'Academic Context',

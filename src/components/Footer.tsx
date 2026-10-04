@@ -45,7 +45,7 @@ export const Footer: React.FC<FooterProps> = ({
               "{RESORT_INFO.slogan}"
             </p>
             <p className="text-stone-400 text-sm leading-relaxed">
-              A serene tropical beach resort sanctuary nestled along the peaceful coastline of Samara, Aringay, La Union. Experience authentic Ilokano hospitality, relaxing ocean views, and memories with family and friends.
+              A serene tropical beach resort sanctuary nestled along the peaceful coastline of Corong-Corong, El Nido, Palawan. Experience authentic island hospitality, relaxing Bacuit Bay ocean views, and memories with family and friends.
             </p>
             <div className="pt-2">
               <span className="text-xs uppercase tracking-wider text-stone-400 block mb-2 font-medium">
@@ -172,11 +172,11 @@ export const Footer: React.FC<FooterProps> = ({
 
         {/* Bottom Bar: Copyright & Attribution */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-400 gap-4">
-          <p>© {new Date().getFullYear()} Bikini Valley Resort. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Oceana Haven. All rights reserved.</p>
           <div className="flex items-center gap-1 text-stone-400">
             <span>Crafted with</span>
             <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" />
-            <span>for Hospitality Management Showcase · La Union, PH</span>
+            <span>for Hospitality Management Showcase · El Nido, Palawan, PH</span>
           </div>
         </div>
       </div>

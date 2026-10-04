@@ -46,7 +46,7 @@ export const RoomsPage: React.FC<RoomsPageProps> = ({
           Rooms & Guest Stays
         </h1>
         <p className="text-stone-600 text-sm sm:text-base leading-relaxed text-balance">
-          Unwind in clean, air-conditioned comfort in Samara, Aringay. Choose between our restful Standard Room, scenic ocean-view Deluxe Room, or our expansive Family Suite.
+          Unwind in clean, air-conditioned comfort in Corong-Corong, El Nido. Choose between our restful Standard Room, scenic ocean-view Deluxe Room, or our expansive Family Suite.
         </p>
       </div>
 
@@ -59,7 +59,7 @@ export const RoomsPage: React.FC<RoomsPageProps> = ({
           <strong className="font-semibold block text-amber-950">
             Educational Sample Rate Policy (Philippine Pesos - PHP):
           </strong>
-          All prices stated below (₱1,500, ₱2,500, and ₱4,000) are sample educational rates created for a college Hospitality Management simulation. They can be revised and do not constitute final confirmed resort billing until direct reservation confirmation.
+          All prices stated below (₱1,500, ₱2,500, and ₱4,000) are sample educational rates created for a college Hospitality Management simulation. They can be revised and do not constitute final confirmed resort rates until direct reservation confirmation.
         </div>
       </div>
 
@@ -116,7 +116,7 @@ export const RoomsPage: React.FC<RoomsPageProps> = ({
               >
                 <img
                   src={room.image}
-                  alt={`${room.name} at Bikini Valley Resort, Samara, Aringay, La Union`}
+                  alt={`${room.name} at Oceana Haven, Corong-Corong, El Nido, Palawan`}
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   referrerPolicy="no-referrer"
                 />
@@ -223,7 +223,7 @@ export const RoomsPage: React.FC<RoomsPageProps> = ({
             Room Specifications Comparison
           </h3>
           <p className="text-stone-600 text-xs sm:text-sm mt-1">
-            Review room features side-by-side to choose the ideal accommodation for your stay in Aringay.
+            Review room features side-by-side to choose the ideal accommodation for your stay in El Nido.
           </p>
         </div>
 
@@ -287,7 +287,7 @@ export const RoomsPage: React.FC<RoomsPageProps> = ({
             Front Desk Service
           </h4>
           <p className="leading-relaxed">
-            Our front desk is staffed 24 hours daily to assist you with room keys, luggage storage, fresh towels, and local travel directions in La Union.
+            Our front desk is staffed 24 hours daily to assist you with room keys, luggage storage, fresh towels, and local travel directions in El Nido and Palawan.
           </p>
         </div>
         <div className="p-5 bg-white rounded-2xl border border-stone-200">
@@ -295,7 +295,7 @@ export const RoomsPage: React.FC<RoomsPageProps> = ({
             Reservation Confirmation
           </h4>
           <p className="leading-relaxed">
-            All submitted reservation requests are processed through our reservations desk via email (bikinivalley175@gmail.com) and phone (09539661524).
+            All submitted reservation requests are processed through our reservations desk via email (oceanahaven38@gmail.com) and phone (09539661524).
           </p>
         </div>
       </section>

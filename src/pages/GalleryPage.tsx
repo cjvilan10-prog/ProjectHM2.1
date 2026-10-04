@@ -53,7 +53,7 @@ export const GalleryPage: React.FC = () => {
           Resort Photo Gallery
         </h1>
         <p className="text-stone-600 text-sm sm:text-base leading-relaxed text-balance">
-          Take a visual journey through Bikini Valley Resort in Samara, Aringay, La Union. Click any photograph to view high-resolution imagery and detailed architectural captions.
+          Take a visual journey through Oceana Haven in Corong-Corong, El Nido, Palawan. Click any photograph to view high-resolution imagery and detailed architectural captions.
         </p>
       </div>
 
@@ -133,7 +133,7 @@ export const GalleryPage: React.FC = () => {
           <span>Visual Asset & Photography Disclosure</span>
         </div>
         <p className="leading-relaxed">
-          In strict compliance with project guidelines, all visual representations, architectural renders, and imagery featured on this website are educational assets crafted for the Bikini Valley Resort hospitality management simulation. They represent the tropical coastal concept in Samara, Aringay, La Union and do not claim to depict existing unverified physical structures.
+          In strict compliance with project guidelines, all visual representations, architectural renders, and imagery featured on this website are educational assets crafted for the Oceana Haven hospitality management simulation. They represent the tropical coastal concept in Corong-Corong, El Nido, Palawan and do not claim to depict existing unverified physical structures.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-[11px] text-stone-500 border-t border-stone-200">
           <div>
@@ -142,7 +142,7 @@ export const GalleryPage: React.FC = () => {
           </div>
           <div>
             <strong className="text-stone-700 block">Project Attribution:</strong>
-            Prepared for College Hospitality Management Academic Presentation (La Union, Philippines).
+            Prepared for College Hospitality Management Academic Presentation (El Nido, Palawan, Philippines).
           </div>
         </div>
       </section>

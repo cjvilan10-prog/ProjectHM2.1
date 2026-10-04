@@ -165,7 +165,7 @@ Dates: ${summary.checkInDate} to ${summary.checkOutDate} (${summary.nightsCount}
 Guests: ${summary.guestsCount}
 Estimated Sample Total: ₱${summary.estimatedTotalPHP.toLocaleString()} PHP
 Special Requests: ${summary.specialRequests || 'None'}
-Resort: Bikini Valley Resort (Samara, Aringay, La Union, Philippines)`;
+Resort: Oceana Haven (Corong-Corong, El Nido, Palawan, Philippines)`;
   };
 
   const handleCopy = (summary: ReservationSummary) => {
@@ -183,9 +183,9 @@ Resort: Bikini Valley Resort (Samara, Aringay, La Union, Philippines)`;
     const subject = encodeURIComponent(
       `[Reservation Inquiry ${summary.inquiryId}] - ${summary.roomDetails?.name || 'Room Stay'} - ${summary.fullName}`
     );
-    const bodyText = `Dear Bikini Valley Resort Reservations Team,
+    const bodyText = `Dear Oceana Haven Reservations Team,
 
-I would like to submit a reservation inquiry for Bikini Valley Resort in Samara, Aringay, La Union.
+I would like to submit a reservation inquiry for Oceana Haven in Corong-Corong, El Nido, Palawan.
 
 INQUIRY DETAILS:
 • Reference Code: ${summary.inquiryId}
@@ -212,7 +212,7 @@ ${summary.fullName}`;
       `[Reservation Inquiry ${summary.inquiryId}] - ${summary.roomDetails?.name || 'Room Stay'} - ${summary.fullName}`
     );
     const bodyText = encodeURIComponent(
-      `Dear Bikini Valley Resort Reservations Team,\n\nI would like to submit a reservation inquiry for Bikini Valley Resort in Samara, Aringay, La Union.\n\nINQUIRY DETAILS:\n• Reference Code: ${summary.inquiryId}\n• Guest Name: ${summary.fullName}\n• Email: ${summary.email}\n• Contact Number: ${summary.phone}\n• Selected Room: ${summary.roomDetails?.name || 'General Inquiry'}\n• Dates: ${summary.checkInDate} to ${summary.checkOutDate} (${summary.nightsCount} Nights)\n• Guests: ${summary.guestsCount}\n• Estimated Sample Total: ₱${summary.estimatedTotalPHP.toLocaleString()} PHP\n• Special Requests: ${summary.specialRequests || 'None'}\n\nPlease advise on availability.\n\nThank you,\n${summary.fullName}`
+      `Dear Oceana Haven Reservations Team,\n\nI would like to submit a reservation inquiry for Oceana Haven in Corong-Corong, El Nido, Palawan.\n\nINQUIRY DETAILS:\n• Reference Code: ${summary.inquiryId}\n• Guest Name: ${summary.fullName}\n• Email: ${summary.email}\n• Contact Number: ${summary.phone}\n• Selected Room: ${summary.roomDetails?.name || 'General Inquiry'}\n• Dates: ${summary.checkInDate} to ${summary.checkOutDate} (${summary.nightsCount} Nights)\n• Guests: ${summary.guestsCount}\n• Estimated Sample Total: ₱${summary.estimatedTotalPHP.toLocaleString()} PHP\n• Special Requests: ${summary.specialRequests || 'None'}\n\nPlease advise on availability.\n\nThank you,\n${summary.fullName}`
     );
     return `https://mail.google.com/mail/?view=cm&fs=1&to=${RESORT_INFO.email}&su=${subject}&body=${bodyText}`;
   };
@@ -341,7 +341,7 @@ ${summary.fullName}`;
         <div className="mt-6 pt-4 border-t border-stone-200 text-[11px] text-stone-400">
           <p className="font-semibold text-stone-600 mb-1">100% Free Static Hosting Architecture:</p>
           <p>
-            This website does not require Google Cloud Billing, backend databases, or paid APIs. Inquiries are processed client-side and dispatched directly to your resort inbox at <code className="text-teal-700 font-mono">{RESORT_INFO.email}</code>.
+            This website operates as a 100% free static site with zero backend servers or external databases. Inquiries are processed client-side and dispatched directly to your resort inbox at <code className="text-teal-700 font-mono">{RESORT_INFO.email}</code>.
           </p>
         </div>
       </div>
@@ -602,7 +602,7 @@ ${summary.fullName}`;
       </button>
 
       <p className="text-[11px] text-center text-stone-500">
-        By submitting, you send an academic reservation inquiry to Bikini Valley Resort ({RESORT_INFO.email}). No immediate payment is charged.
+        By submitting, you send an academic reservation inquiry to Oceana Haven ({RESORT_INFO.email}). No immediate payment is charged.
       </p>
     </form>
   );

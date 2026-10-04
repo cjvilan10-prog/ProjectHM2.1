@@ -33,7 +33,7 @@ export const HomePage: React.FC<HomePageProps> = ({
         <div className="absolute inset-0 z-0">
           <img
             src={RESORT_IMAGES.hero}
-            alt="Bikini Valley Resort tropical beachfront in Samara, Aringay, La Union"
+            alt="Oceana Haven tropical beachfront in Corong-Corong, El Nido, Palawan"
             className="w-full h-full object-cover brightness-[0.78] transform scale-105 transition-transform duration-1000 ease-out"
             referrerPolicy="no-referrer"
           />
@@ -46,12 +46,12 @@ export const HomePage: React.FC<HomePageProps> = ({
           {/* Location & Brand Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-stone-900/60 backdrop-blur-md border border-white/20 text-xs font-medium text-teal-200 mb-6">
             <MapPin className="w-3.5 h-3.5 text-teal-400" />
-            <span>Samara, Aringay, La Union, Philippines</span>
+            <span>Corong-Corong, El Nido, Palawan, Philippines</span>
           </div>
 
           {/* Slogan & Title */}
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-4 drop-shadow-md text-balance">
-            Bikini Valley Resort
+            Oceana Haven
           </h1>
 
           <p className="font-serif italic text-xl sm:text-2xl md:text-3xl text-amber-300 font-normal mb-6 tracking-wide drop-shadow">
@@ -59,7 +59,7 @@ export const HomePage: React.FC<HomePageProps> = ({
           </p>
 
           <p className="text-stone-200 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed mb-10 text-balance drop-shadow">
-            Escape to the peaceful coastal charm of Aringay. Savor tranquil beach waters, relaxing tropical gardens, modern guestrooms, and warm Filipino hospitality.
+            Escape to the peaceful coastal charm of El Nido. Savor tranquil beach waters overlooking Bacuit Bay, relaxing tropical gardens, modern guestrooms, and warm island hospitality.
           </p>
 
           {/* Prominent Call to Action Buttons */}
@@ -110,15 +110,15 @@ export const HomePage: React.FC<HomePageProps> = ({
           <div className="lg:col-span-6 space-y-6">
             <div className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-teal-800">
               <Sparkles className="w-3.5 h-3.5 text-teal-600" />
-              <span>Welcome to Bikini Valley Resort</span>
+              <span>Welcome to Oceana Haven</span>
             </div>
 
             <h2 className="font-serif text-3xl sm:text-4xl font-bold text-stone-900 tracking-tight leading-tight text-balance">
-              Your Peaceful Coastal Getaway Along Samara Beach
+              Your Peaceful Coastal Getaway in Corong-Corong, El Nido
             </h2>
 
             <p className="text-stone-600 text-base leading-relaxed">
-              Located in the quiet coastal community of <strong className="text-stone-800 font-medium">Samara, Aringay, La Union</strong>, Bikini Valley Resort was envisioned as an unhurried sanctuary for travelers seeking the authentic tropical breeze of the Philippines without the hectic bustle of crowded commercial strips.
+              Located along the scenic beachfront of <strong className="text-stone-800 font-medium">Corong-Corong, El Nido, Palawan</strong>, Oceana Haven was envisioned as an unhurried sanctuary for travelers seeking the breathtaking limestone seascapes and tropical breeze of Palawan without the hectic noise of crowded commercial strips.
             </p>
 
             <p className="text-stone-600 text-sm leading-relaxed">
@@ -158,7 +158,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               <div className="relative rounded-2xl overflow-hidden shadow-md group">
                 <img
                   src={RESORT_IMAGES.beachCabana}
-                  alt="Tranquil beach cabana and ocean shore at Bikini Valley Resort"
+                  alt="Tranquil beach cabana and ocean shore at Oceana Haven"
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
                 />
@@ -180,7 +180,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               <div className="relative rounded-2xl overflow-hidden shadow-md group">
                 <img
                   src={RESORT_IMAGES.pool}
-                  alt="Sparkling swimming pool at Bikini Valley Resort"
+                  alt="Sparkling swimming pool at Oceana Haven"
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
                 />
@@ -206,13 +206,13 @@ export const HomePage: React.FC<HomePageProps> = ({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-12">
             <span className="text-xs font-semibold uppercase tracking-widest text-teal-800 block mb-2">
-              The Bikini Valley Experience
+              The Oceana Haven Experience
             </span>
             <h2 className="font-serif text-3xl font-bold text-stone-900">
               Why Guests Enjoy Staying With Us
             </h2>
             <p className="text-stone-600 text-sm mt-3">
-              Crafted for family holidays, weekend getaways, and romantic retreats on the scenic coast of La Union.
+              Crafted for family holidays, island escapes, and romantic retreats on the scenic coast of El Nido, Palawan.
             </p>
           </div>
 
@@ -403,7 +403,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             Resort Tour & Promotional Video
           </h2>
           <p className="text-stone-600 text-sm mt-2">
-            Watch our student-produced promotional tour of Bikini Valley Resort. Explore our tranquil beachfront, pool oasis, and coastal accommodations.
+            Watch our student-produced promotional tour of Oceana Haven. Explore our tranquil beachfront facing Bacuit Bay, pool oasis, and coastal accommodations in El Nido, Palawan.
           </p>
         </div>
 
@@ -415,7 +415,7 @@ export const HomePage: React.FC<HomePageProps> = ({
         <div className="relative rounded-3xl overflow-hidden bg-gradient-to-r from-teal-900 via-teal-800 to-stone-900 text-white p-8 sm:p-12 lg:p-16 shadow-xl">
           <div className="relative z-10 max-w-2xl space-y-4">
             <span className="text-xs uppercase tracking-widest text-amber-300 font-semibold block">
-              Plan Your Visit to Samara, Aringay
+              Plan Your Visit to Corong-Corong, El Nido
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl font-bold tracking-tight">
               Ready for a Relaxing Tropical Escape?

@@ -159,10 +159,10 @@ export const ContactPage: React.FC<ContactPageProps> = ({ preselectedRoomId }) =
           <div className="bg-teal-50/60 rounded-2xl p-6 border border-teal-100 text-xs text-teal-950 space-y-2">
             <div className="flex items-center gap-2 font-semibold text-sm text-teal-900">
               <Compass className="w-4 h-4 text-teal-700" />
-              <span>How to Reach Bikini Valley Resort</span>
+              <span>How to Reach Oceana Haven</span>
             </div>
             <p className="leading-relaxed text-stone-600">
-              From Metro Manila or Baguio, take TPLEX to Rosario or Pozorrubio exit, proceed north along MacArthur Highway towards Aringay town proper, then take the scenic coastal route to Samara Beachfront. Gated private parking is available on-site.
+              From El Nido Lio Airport (ENI), it is a quick 15-20 minute scenic tricycle or private shuttle ride south to Corong-Corong Beach. If arriving from Puerto Princesa International Airport, comfortable tourist vans connect directly to El Nido in 5-6 hours via the Palawan Highway. Gated private parking is available on-site.
             </p>
           </div>
         </div>
@@ -195,10 +195,10 @@ export const ContactPage: React.FC<ContactPageProps> = ({ preselectedRoomId }) =
               Interactive Map
             </span>
             <h3 className="font-serif text-xl sm:text-2xl font-bold text-stone-900">
-              Resort Location: Samara, Aringay, La Union
+              Resort Location: Corong-Corong, El Nido, Palawan
             </h3>
             <p className="text-xs text-stone-500 mt-0.5">
-              Configurable Google Maps embed centered on the coastal barangay of Samara in Aringay, La Union.
+              Configurable Google Maps embed centered on the coastal bay of Corong-Corong in El Nido, Palawan.
             </p>
           </div>
 
@@ -216,7 +216,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ preselectedRoomId }) =
         {/* Real Embedded Google Map iframe */}
         <div className="relative aspect-[16/9] sm:aspect-[21/9] w-full rounded-2xl overflow-hidden border border-stone-200 bg-stone-100 shadow-inner">
           <iframe
-            title="Bikini Valley Resort Location - Samara, Aringay, La Union"
+            title="Oceana Haven Location - Corong-Corong, El Nido, Palawan"
             src={RESORT_INFO.googleMapsEmbedUrl}
             width="100%"
             height="100%"
@@ -229,7 +229,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ preselectedRoomId }) =
         </div>
 
         <div className="text-[11px] text-stone-500 italic text-center sm:text-left">
-          Note: In accordance with project instructions, this map showcases the verified coastal area of Samara, Aringay, La Union without claiming an unverified individual building pin.
+          Note: In accordance with project instructions, this map showcases the verified coastal area of Corong-Corong, El Nido, Palawan without claiming an unverified individual building pin.
         </div>
       </section>
     </div>

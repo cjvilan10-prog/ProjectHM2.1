@@ -80,14 +80,14 @@ export const ResortLogo: React.FC<ResortLogoProps> = ({
             isLight ? 'text-white' : 'text-stone-900'
           }`}
         >
-          Bikini Valley
+          Oceana Haven
         </span>
         <span
           className={`text-[10px] tracking-widest uppercase font-medium ${
             isLight ? 'text-teal-200/80' : 'text-teal-800'
           }`}
         >
-          Resort · Samara
+          Resort · Corong-Corong, El Nido
         </span>
       </div>
     </div>

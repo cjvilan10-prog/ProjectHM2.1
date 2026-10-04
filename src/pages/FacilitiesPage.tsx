@@ -52,7 +52,7 @@ export const FacilitiesPage: React.FC<FacilitiesPageProps> = ({
           Facilities & Services
         </h1>
         <p className="text-stone-600 text-sm sm:text-base leading-relaxed text-balance">
-          Discover everything Bikini Valley Resort offers for an unforgettable stay. From our tranquil swimming pool and open-air beachfront restaurant to spacious event grounds and recreational areas.
+          Discover everything Oceana Haven offers for an unforgettable stay. From our tranquil swimming pool and open-air beachfront restaurant to spacious event grounds and recreational areas.
         </p>
       </div>
 
@@ -94,7 +94,7 @@ export const FacilitiesPage: React.FC<FacilitiesPageProps> = ({
             <div className="relative aspect-[4/3] overflow-hidden bg-stone-100">
               <img
                 src={facility.image}
-                alt={`${facility.title} at Bikini Valley Resort, Samara, Aringay`}
+                alt={`${facility.title} at Oceana Haven, Corong-Corong, El Nido`}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 referrerPolicy="no-referrer"
               />
@@ -161,10 +161,10 @@ export const FacilitiesPage: React.FC<FacilitiesPageProps> = ({
               Events, Banquets & Celebrations
             </span>
             <h2 className="font-serif text-2xl sm:text-3xl font-bold tracking-tight">
-              Hosting a Special Event in Samara, Aringay?
+              Hosting a Special Event in Corong-Corong, El Nido?
             </h2>
             <p className="text-stone-300 text-sm leading-relaxed max-w-2xl">
-              Our Aringay Function Hall and beachfront grounds accommodate up to 120 guests with flexible table setups, audiovisual sound systems, and tailored catering packages. Perfect for family reunions, birthdays, school retreats, and coastal weddings.
+              Our El Nido Function Hall and beachfront grounds accommodate up to 120 guests with flexible table setups, audiovisual sound systems, and tailored catering packages. Perfect for family reunions, birthdays, school retreats, and coastal celebrations.
             </p>
           </div>
 
